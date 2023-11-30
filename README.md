@@ -39,8 +39,8 @@ This project, named "Restaurant Management," is a robust Spring Boot application
 The Controller layer is responsible for handling incoming HTTP requests and delegating them to the appropriate services. It defines API endpoints for the following operations:
 
 1. **Add Restaurant:** `POST /restaurant`
-2. **Add Restaurants:** `POST /restaurant`
-3. **Get All Restaurants:** `GET /restaurant`
+2. **Add Restaurants:** `POST /restaurants`
+3. **Get All Restaurants:** `GET /restaurants`
 4. **Get Restaurant by ID:** `GET /restaurant/{id}`
 5. **Update Restaurant Speciality by Id:** `PUT /restaurant/{id}/id/speciality`
 7. **Delete Restaurant by ID:** `DELETE /restaurant/{id}`
